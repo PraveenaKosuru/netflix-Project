@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+}
+   #shadow{
+    width:100vw;
+    height:100vh;
+     background-color: rgba(0, 0, 0, 0.7);   
+}
+
+#header{
+    height:20%;
+    display: flex;
+    
+}
+
+#logo{
+   width:40%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#buttons{
+   width:50%;
+   display:flex;
+   align-items: center;
+   justify-content:flex-end;
+}
+
+button{
+    background-color: red;
+    color: cornsilk;
+    font-weight: 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+    padding: 8px 15px;
+    margin-right: 10px;
+}
+#main{
+    height:80%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 55px;
+    margin: 0px;
+}
+
+#subtitle-1{
+    font-size: 28px;
+    margin:13px;
+}
+#subtitle-2{
+    font-size: 23px;
+    margin:13px;
+}
